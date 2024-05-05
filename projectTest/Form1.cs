@@ -32,6 +32,7 @@ namespace projectTest
                 cmd.CommandType = CommandType.Text;
 
                 //DataGenerator data = new DataGenerator(cmd, 1000);
+                //DataFileGenerator dataFile = new DataFileGenerator(100000);
                 conn.Dispose();
             }
             catch (Exception ex)

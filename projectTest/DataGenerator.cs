@@ -25,7 +25,7 @@ namespace projectTest
                 cmd.CommandType = CommandType.Text;
                 cmd.ExecuteNonQuery();
             }
-
+            Debug.WriteLine("Items Generated");
             //generates the tags
             for (int i = 0; i < itemCount / 5; i++)
             {
@@ -33,7 +33,7 @@ namespace projectTest
                 cmd.CommandType = CommandType.Text;
                 cmd.ExecuteNonQuery();
             }
-
+            Debug.WriteLine("Tags Generated");
             //generates the relations between items and tags randomly
             for (int i = 0; i < itemCount; i++)
             {
@@ -61,7 +61,7 @@ namespace projectTest
                     Debug.WriteLine(ex.Message);
                 }
             }
-
+            Debug.WriteLine("ItemsToTag Generated");
             //generates the sources
             for (int i = 0; i < itemCount; i++)
             {
@@ -78,7 +78,6 @@ namespace projectTest
                     cmd.CommandType = CommandType.Text;
                     cmd.ExecuteNonQuery();
                 }
-
                 //adds individual sources to respective source tables
                 int currentSource = 1;
                 for (int a = 1; a < recipeCount; a++)
@@ -144,7 +143,9 @@ namespace projectTest
                     cmd.CommandType = CommandType.Text;
                     cmd.ExecuteNonQuery();
                 }
+                //Debug.WriteLine("Sour Generated");
             }
+            Debug.WriteLine("Source Generated");
         }
     }
 }
