@@ -1,0 +1,25 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "38f93e4b-3d5e-49e3-811b-f5074eb437d5",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1716252876003"
+        }
+      },
+      "favorite": {
+        "name": "Project"
+      },
+      "connectionOptions": {
+        "connectionString": "mongodb://jp247:eYbU7423CQ@mongodb.cms.waikato.ac.nz:27017/?authSource=admin",
+        "oidc": {
+          "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjowLCJzdGF0ZSI6W119"
+        }
+      }
+    }
+  ]
+}
