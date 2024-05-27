@@ -44,6 +44,7 @@
             // 
             this.listBox1.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.FormattingEnabled = true;
+            this.listBox1.HorizontalScrollbar = true;
             this.listBox1.ItemHeight = 14;
             this.listBox1.Location = new System.Drawing.Point(34, 113);
             this.listBox1.Name = "listBox1";
