@@ -170,11 +170,11 @@
   <ItemGroup>
     <Compile Include="DataFileGenerator.cs" />
     <Compile Include="DataGenerator.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Oracle.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Oracle.Designer.cs">
+      <DependentUpon>Oracle.cs</DependentUpon>
     </Compile>
     <Compile Include="MongoDB.cs">
       <SubType>Form</SubType>
@@ -184,8 +184,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Oracle.resx">
+      <DependentUpon>Oracle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MongoDB.resx">
       <DependentUpon>MongoDB.cs</DependentUpon>

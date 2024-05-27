@@ -12,9 +12,9 @@ using Oracle.ManagedDataAccess.Client;
 
 namespace projectTest
 {
-    public partial class Form1 : Form
+    public partial class Oracle : Form
     {
-        public Form1()
+        public Oracle()
         {
             InitializeComponent();
         }
